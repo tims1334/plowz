@@ -9,7 +9,7 @@ import altair as alt
 
 
 dma_map = gp.read_file('FB_DMA.shp')
-fb_spend = pd.read_csv("FB_spend.csv")
+fb_spend = pd.read_csv("fb_spend.csv")
 fb_spend['DMA Name'] = fb_spend['DMA region']
 spend_map = dma_map.merge(fb_spend, on='DMA Name')
 
