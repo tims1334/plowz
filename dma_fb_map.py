@@ -1,7 +1,7 @@
 import geopandas as gp
 import pandas as pd
 import redshift_connector
-from query_list import first_orders
+from query_list import first_orders, orders
 import streamlit as st
 import datetime
 import numpy as np
@@ -15,12 +15,6 @@ spend_map = dma_map.merge(fb_spend, on='DMA Name')
 
 password = st.sidebar.text_input('DB Password')
 
-jobs = """
-        SELECT id, customer_id, latitiude AS latitude, longitude, recurring, job_type
-        FROM job
-        WHERE (state ='finished' OR state='assigned')
-        AND created_at >= '2022-04-01'
-        """
 
 conn = redshift_connector.connect(
         host=host,
@@ -30,7 +24,7 @@ conn = redshift_connector.connect(
         )
 cursor: redshift_connector.Cursor = conn.cursor()
 
-cursor.execute(jobs)
+cursor.execute(orders)
 df: pd.DataFrame = cursor.fetch_dataframe()
 cursor.execute(first_orders)
 fo: pd.DataFrame = cursor.fetch_dataframe()
