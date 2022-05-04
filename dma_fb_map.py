@@ -52,8 +52,14 @@ dmas = job_map.groupby(['NAME','Campaign name']).agg({
                                                     })
 
 dmas['cost_per_new_customer'] = dmas['Amount spent (USD)'].div(dmas['new_customers']).replace(np.inf, 0)
-#dmas['cost_per_new_customer'] = dmas.apply(lambda x: np.where(x['new_customers'], x['Amount spent (USD)']/x['new_customers']), axis=1)
 st.dataframe(dmas)
+dmas = dmas.reset_index()
+campaign_l = dmas['Campaign name'].drop_duplicates()
+campaign_list = campaign_l.to_list()
+campaigns = st.multiselect("Select campaigns", campaign_list, default='Prospecting | new markets | 4.11.22')
+st.dataframe(dmas.loc[dmas['Campaign name'].isin(campaigns)])
+st.write('Total New Customers Since April 1, 2022')
+st.header(dmas.new_customers.loc[dmas['Campaign name'].isin(campaigns)].sum())
 st.header('New Customers since April 1st, 2022')
 st.map(df.loc[~df['new_customers'].isna()])
 
