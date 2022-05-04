@@ -2,6 +2,5 @@
   geopandas
   streamlit
   redshift_connector
-  querylist.py
   altair
   numpy
