@@ -13,14 +13,14 @@ fb_spend = pd.read_csv("/Users/timothyschreiber/Downloads/FB_spend.csv")
 fb_spend['DMA Name'] = fb_spend['DMA region']
 spend_map = dma_map.merge(fb_spend, on='DMA Name')
 
-password = st.sidebar.text_input('DB Password')
+passwords = st.sidebar.text_input('DB Password')
 
 
 conn = redshift_connector.connect(
-        host=host,
-        database=database,
-        user=user,
-        password=password
+        host=hosts,
+        database=databases,
+        user=users,
+        password=passwords
         )
 cursor: redshift_connector.Cursor = conn.cursor()
 
