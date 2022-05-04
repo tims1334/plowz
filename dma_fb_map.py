@@ -8,8 +8,8 @@ import numpy as np
 import altair as alt
 
 
-dma_map = gp.read_file('/Users/timothyschreiber/Downloads/FB_DMA.shp')
-fb_spend = pd.read_csv("/Users/timothyschreiber/Downloads/FB_spend.csv")
+dma_map = gp.read_file('FB_DMA.shp')
+fb_spend = pd.read_csv("FB_spend.csv")
 fb_spend['DMA Name'] = fb_spend['DMA region']
 spend_map = dma_map.merge(fb_spend, on='DMA Name')
 
@@ -17,9 +17,9 @@ passwords = st.sidebar.text_input('DB Password')
 
 
 conn = redshift_connector.connect(
-        host=hosts,
-        database=databases,
-        user=users,
+        host=st.secrets["hosts"],
+        database=st.secrets["databases"],
+        user=st.secrets["users"],
         password=passwords
         )
 cursor: redshift_connector.Cursor = conn.cursor()
