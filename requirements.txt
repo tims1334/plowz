@@ -4,3 +4,5 @@
   redshift_connector
   altair
   numpy
+  rtree
+  pygeos
