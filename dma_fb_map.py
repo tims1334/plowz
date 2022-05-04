@@ -40,7 +40,7 @@ df['geometry'] = gp.points_from_xy(df['longitude'],df['latitude'], crs="EPSG:432
 gdf = gp.GeoDataFrame(df,geometry=df['geometry'], crs="EPSG:4326")
 job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 
-job_map['recurring] = job_map['recurring'].apply(lambda x: 1 if x==True else 0)
+job_map['recurring'] = job_map['recurring'].apply(lambda x: 1 if x==True else 0)
 
 dmas = job_map.groupby(['NAME','Campaign name']).agg({
                                                     'Amount spent (USD)':'mean',
