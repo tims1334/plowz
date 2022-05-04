@@ -52,7 +52,6 @@ dmas = job_map.groupby(['NAME','Campaign name']).agg({
                                                     })
 
 dmas['cost_per_new_customer'] = dmas['Amount spent (USD)'].div(dmas['new_customers']).replace(np.inf, 0)
-st.dataframe(dmas)
 dmas = dmas.reset_index()
 campaign_l = dmas['Campaign name'].drop_duplicates()
 campaign_list = campaign_l.to_list()
