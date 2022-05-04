@@ -54,5 +54,6 @@ dmas = job_map.groupby(['NAME','Campaign name']).agg({
 dmas['cost_per_new_customer'] = dmas['Amount spent (USD)'].div(dmas['new_customers']).replace(np.inf, 0)
 #dmas['cost_per_new_customer'] = dmas.apply(lambda x: np.where(x['new_customers'], x['Amount spent (USD)']/x['new_customers']), axis=1)
 st.dataframe(dmas)
+st.header('New Customers since April 1st, 2022)
 st.map(df.loc[~df['new_customers'].isna()])
 
