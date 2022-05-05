@@ -1,8 +1,9 @@
   pandas
   geopandas
-  streamlit
+  streamlit==1.9
   redshift_connector
   altair
   numpy
   rtree
   pygeos
+  facebook_business
