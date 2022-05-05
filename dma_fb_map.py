@@ -37,7 +37,7 @@ df['latitude'] = df.latitude.astype('float64')
 df['longitude'] = df.longitude.astype('float64')
 df['1stjob'] = df['first_job'].dt.date
 df['first_job'] = df['first_job'].astype('str')
-df['new_customers'] = df.loc[(df['1stjob'].dt.date) >= datetime.date(2022,4,11), "customer_id"]
+df['new_customers'] = df.loc[(df['1stjob']) >= datetime.date(2022,4,11), "customer_id"]
 df['recurring_jobs'] = df.loc[df['recurring']==True,"id"]
 # GeoDataFrame to join jobs and map
 df['geometry'] = gp.points_from_xy(df['longitude'],df['latitude'], crs="EPSG:4326")
