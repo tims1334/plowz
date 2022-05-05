@@ -13,7 +13,7 @@ def convert_df(df_download):
 
 dma_map = gp.read_file('FB_DMA.shp')
 fb_spend = pd.read_csv("fb_spend_campaign.csv")
-fb_spend['DMA Name'] = fb_spend['DMA region']
+fb_spend['DMA Name'] = fb_spend['dma']
 spend_map = dma_map.merge(fb_spend, on='DMA Name')
 
 passwords = st.sidebar.text_input('DB Password')
