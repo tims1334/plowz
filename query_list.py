@@ -8,7 +8,7 @@ first_orders = """
     """
 
 orders = """
-        SELECT id, customer_id, latitiude AS latitude, longitude, recurring, job_type
+        SELECT id, customer_id, latitiude AS latitude, longitude, recurring, job_type, created_at
         FROM job
         WHERE (state ='finished' OR state='assigned')
         AND created_at >= '2022-04-01'
