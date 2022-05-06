@@ -25,7 +25,6 @@ campaigns = st.sidebar.multiselect("Select campaigns", campaign_list, default='P
 spend_map = spend_map.loc[spend_map['campaign_name'].isin(campaigns)]
 
 passwords = st.sidebar.text_input('DB Password')
-st.stop()
 
 # Connect
 conn = redshift_connector.connect(
