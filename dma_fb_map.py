@@ -143,7 +143,10 @@ st.write('Map of new customers')
 dfp = df.loc[(df['1stjob']>=start)&(df['1stjob']<=end)]
 st.map(dfp.loc[~df['new_customers'].isna()])
 
+# Show dataframes
 
+st.header('Job and Spend Totals by dma')
+st.dataframe(tdma)
 
 st.header('Job and Spend info grouped by date and dma')
 st.dataframe(final)
