@@ -104,6 +104,22 @@ indict = {'customer_id':int,'id':int,'recurring_jobs':int,'new_customers':int}
 final = final.astype(indict)
 job_spend_by_date = job_spend_by_date.astype(indict)
 
+# Total by dma
+tdma = final.groupby('dma').agg({
+                            'spend':'sum',
+                            'impressions':'sum',
+                            'clicks':'sum',
+                            'customer_id':'sum',
+                            'id':'sum',
+                            'recurring_jobs':'sum',
+                            'new_customers':'sum'
+                            }).reset_index()
+
+# Add cost per new customer to dfs
+tdma['cost_per_new_customer'] = tdma['spend'].div(tdma['new_customers']).replace(np.inf,0)
+job_spend_by_date['cost_per_new_customer'] = job_spend_by_date['spend'].div(job_spend_by_date['new_customers']).replace(np.inf, 0)
+final['cost_per_new_customer'] = final['spend'].div(final['new_customers']).replace(np.inf,0)
+
 # Start Showing Data
 st.write('***FB ads spend data will be 1 day behind***')
 st.write("Choose start and end dates for info by dma")
