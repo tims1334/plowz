@@ -123,7 +123,7 @@ final['cost_per_new_customer'] = final['spend'].div(final['new_customers']).repl
 # Start Showing Data
 st.write('***FB ads spend data will be 1 day behind***')
 st.write("Choose start and end dates for info by dma")
-start = st.date_input('Start Date',datetime.date(2022,4,11))
+start = st.date_input('Start Date',datetime.date(2022,5,10))
 end = st.date_input('End Date')
 
 # Filter by selected dates
@@ -150,18 +150,18 @@ st.dataframe(tdma)
 
 st.header('Job and Spend info grouped by date and dma')
 st.dataframe(final)
-csv3 = convert_df(final)
-st.download_button(label="Download Job and Spend info csv",
-                    data=csv3,
-                    mime='text/csv')
+#csv3 = convert_df(final)
+#st.download_button(label="Download Job and Spend info csv",
+#                    data=csv3,
+#                    mime='text/csv')
 
 st.header('Job Spend by Date, campaigns included')
 st.write("Customer and Job info is duplicated per campaign (job data isn't broken down by campaign in our backend)")
 st.dataframe(job_spend_by_date)
-csv1 = convert_df(job_spend_by_date)
-st.download_button(label="Download Job Spend by Date w Campaigns csv",
-                    data=csv1,
-                    mime='text/csv')
+#csv1 = convert_df(job_spend_by_date)
+#st.download_button(label="Download Job Spend by Date w Campaigns csv",
+#                    data=csv1,
+#                    mime='text/csv')
 
 #csv2 = convert_df(job_map)
 #st.download_button(label="Download all job data with market - no spend - no filter",
