@@ -146,10 +146,12 @@ st.map(dfp.loc[~df['new_customers'].isna()])
 # Show dataframes
 
 st.header('Job and Spend Totals by dma')
-st.dataframe(tdma)
+st.dataframe(tdma.style.format({'spend':'${:,.2f}',
+                                'cost_per_new_customer':'${:,.2f}))
 
 st.header('Job and Spend info grouped by date and dma')
-st.dataframe(final)
+st.dataframe(final.style.format({'spend':'${:,.2f}',
+                                'cost_per_new_customer':'${:,.2f}))
 #csv3 = convert_df(final)
 #st.download_button(label="Download Job and Spend info csv",
 #                    data=csv3,
@@ -157,7 +159,8 @@ st.dataframe(final)
 
 st.header('Job Spend by Date, campaigns included')
 st.write("Customer and Job info is duplicated per campaign (job data isn't broken down by campaign in our backend)")
-st.dataframe(job_spend_by_date)
+st.dataframe(job_spend_by_date.style.format({'spend':'${:,.2f}',
+                                'cost_per_new_customer':'${:,.2f}))
 #csv1 = convert_df(job_spend_by_date)
 #st.download_button(label="Download Job Spend by Date w Campaigns csv",
 #                    data=csv1,
