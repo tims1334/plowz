@@ -21,7 +21,7 @@ spend_map = dma_map.merge(fb_spend, on='DMA Name')
 st.write('Choose campaigns')
 campaign_l = spend_map['campaign_name'].drop_duplicates()
 campaign_list = campaign_l.to_list()
-campaigns = st.sidebar.multiselect("Select campaigns", campaign_list, default='Prospecting | new markets | 4.11.22')
+campaigns = st.sidebar.multiselect("Select campaigns", campaign_list, default='Prospecting | Richmond VA | 5.18.22')
 spend_map = spend_map.loc[spend_map['campaign_name'].isin(campaigns)]
 
 passwords = st.sidebar.text_input('DB Password')
