@@ -6,4 +6,3 @@
   numpy
   rtree
   pygeos
-  facebook_business
