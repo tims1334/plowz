@@ -21,7 +21,7 @@ spend_map = dma_map.merge(fb_spend, on='DMA Name')
 st.write('Choose campaigns')
 campaign_l = spend_map['campaign_name'].drop_duplicates()
 campaign_list = campaign_l.to_list()
-campaigns = st.sidebar.multiselect("Select campaigns", campaign_list, default='Engagement | New Markets | June 22')
+campaigns = st.sidebar.multiselect("Select campaigns", campaign_list, default='Static Retargeting | US | 6.22.22')
 spend_map = spend_map.loc[spend_map['campaign_name'].isin(campaigns)]
 
 passwords = st.sidebar.text_input('DB Password')
@@ -123,7 +123,7 @@ final['cost_per_new_customer'] = final['spend'].div(final['new_customers']).repl
 # Start Showing Data
 st.write('***FB ads spend data will be 1 day behind***')
 st.write("Choose start and end dates for info by dma")
-start = st.date_input('Start Date',datetime.date(2022,6,7))
+start = st.date_input('Start Date',datetime.date(2022,6,23))
 end = st.date_input('End Date')
 
 # Filter by selected dates
