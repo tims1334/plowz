@@ -57,7 +57,7 @@ job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 # Transform dates
 job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
-job_map['date_start']=job_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%Y-%m-%d'), axis=1)
+job_map['date_start']=job_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%m/%d/%y'), axis=1)
 job_map['date_start'] = job_map['date_start'].dt.date
 
 # Fix recurring count
@@ -96,8 +96,8 @@ final = job_spend_by_date.groupby(['date_start','dma']).agg({
 
 
 # Transform dates so we can use date picker
-final['date_start'] = final.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%Y-%m-%d'),axis=1).dt.date
-job_spend_by_date['date_start'] = job_spend_by_date.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%Y-%m-%d'),axis=1).dt.date
+final['date_start'] = final.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
+job_spend_by_date['date_start'] = job_spend_by_date.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
 
 # Change job info to integers
 indict = {'customer_id':int,'id':int,'recurring_jobs':int,'new_customers':int}
