@@ -77,7 +77,7 @@ spend_by_date = spend_map[['date_start','dma','campaign_name','spend','impressio
 spend_by_date['created_at'] = spend_by_date['date_start']
 
 jobs_by_date['created_at'] = jobs_by_date['created_at'].astype('str')
-spend_by_date['created_at'] = spend_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%Y-%m-%d'), axis=1).astype('str')
+spend_by_date['created_at'] = spend_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%m/%d%y'), axis=1).astype('str')
 
 # Join spend and jobs by dates/dmas (includes campaign names)
 job_spend_by_date = spend_by_date.merge(jobs_by_date,on=["dma","created_at"],how='left')
