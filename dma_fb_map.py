@@ -132,6 +132,7 @@ start = st.date_input('Start Date',datetime.date(2022,6,23))
 end = st.date_input('End Date')
 
 # Filter by selected dates
+final['date_start'] = final['date_start'].dt.date
 final = final.loc[(final['date_start']>=start)&(final['date_start']<=end)]
 job_spend_by_date = job_spend_by_date.loc[(job_spend_by_date['date_start']>=start)&(job_spend_by_date['date_start']<=end)]
 
