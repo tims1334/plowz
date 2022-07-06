@@ -66,7 +66,7 @@ def try_parsing_date(text):
 # Transform dates
 job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
-job_map['date_start']=job_map.apply(lambda x: try_parsing_date(x['date_start'])), axis=1)
+job_map['date_start']=job_map.apply(lambda x: try_parsing_date(x['date_start']), axis=1)
 job_map['date_start'] = job_map['date_start'].dt.date
 
 # Fix recurring count
