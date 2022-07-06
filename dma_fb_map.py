@@ -54,19 +54,11 @@ df['geometry'] = gp.points_from_xy(df['longitude'],df['latitude'], crs="EPSG:432
 gdf = gp.GeoDataFrame(df,geometry=df['geometry'], crs="EPSG:4326")
 job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 
-@st.cache
-def try_parsing_date(text):
-    for fmt in ('%Y-%m-%d', '%d.%m.%Y', '%m/%d/%y','%m/%d/%Y'):
-        try:
-            return datetime.strptime(text, fmt)
-        except ValueError:
-            pass
-    raise ValueError('no valid date format found')
-
+st.write(job_map['date_start']
 # Transform dates
 job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
-job_map['date_start']=job_map.apply(lambda x: try_parsing_date(x['date_start']), axis=1)
+job_map['date_start']=job_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%m/%d/%y'), axis=1)
 job_map['date_start'] = job_map['date_start'].dt.date
 
 # Fix recurring count
