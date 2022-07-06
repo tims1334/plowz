@@ -101,8 +101,8 @@ final = job_spend_by_date.groupby(['date_start','dma']).agg({
 
 
 # Transform dates so we can use date picker
-final['date_start'] = final.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
-job_spend_by_date['date_start'] = job_spend_by_date.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
+#final['date_start'] = final.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
+#job_spend_by_date['date_start'] = job_spend_by_date.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
 
 # Change job info to integers
 indict = {'customer_id':int,'id':int,'recurring_jobs':int,'new_customers':int}
