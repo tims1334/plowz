@@ -101,6 +101,8 @@ final = job_spend_by_date.groupby(['date_start','dma']).agg({
 
 
 # Transform dates so we can use date picker
+final['date_start'] = final['date_start'].dt.date
+job_spend_by_date['date_start'] = job_spend_by_date['date_start'].dt.date
 #final['date_start'] = final.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
 #job_spend_by_date['date_start'] = job_spend_by_date.apply(lambda x: datetime.datetime.strptime(x['date_start'],'%m/%d/%y'),axis=1).dt.date
 
@@ -132,7 +134,6 @@ start = st.date_input('Start Date',datetime.date(2022,6,23))
 end = st.date_input('End Date')
 
 # Filter by selected dates
-final['date_start'] = final['date_start'].dt.date
 final = final.loc[(final['date_start']>=start)&(final['date_start']<=end)]
 job_spend_by_date = job_spend_by_date.loc[(job_spend_by_date['date_start']>=start)&(job_spend_by_date['date_start']<=end)]
 
