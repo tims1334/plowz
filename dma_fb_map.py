@@ -16,6 +16,9 @@ dma_map = gp.read_file('FB_DMA.shp')
 fb_spend = pd.read_csv("fb_spend_campaign.csv")
 fb_spend['DMA Name'] = fb_spend['dma']
 spend_map = dma_map.merge(fb_spend, on='DMA Name')
+date1 = pd.to_datetime(spend_map['date_start'], errors='coerce', format='%Y-%m-%d')
+date2 = pd.to_datetime(spend_map['date_start'], errors='coerce', format='%m/%d/%y')
+spend_map['date_start'] = date1.fillna(date2)
 
 # Choose campaigns
 st.write('Choose campaigns')
@@ -54,9 +57,7 @@ df['geometry'] = gp.points_from_xy(df['longitude'],df['latitude'], crs="EPSG:432
 gdf = gp.GeoDataFrame(df,geometry=df['geometry'], crs="EPSG:4326")
 job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 
-date1 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%Y-%m-%d')
-date2 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%m/%d/%y')
-job_map['date_start'] = date1.fillna(date2)
+
 # Transform dates
 #job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
