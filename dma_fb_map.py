@@ -56,7 +56,7 @@ job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 
 date1 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%Y-%m-%d')
 date2 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%m/%d/%y')
-df['date_start'] = date1.fillna(date2)
+job_map['date_start'] = date1.fillna(date2)
 # Transform dates
 job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
