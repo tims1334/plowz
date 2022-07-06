@@ -58,7 +58,7 @@ date1 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%Y-%m-%d'
 date2 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%m/%d/%y')
 job_map['date_start'] = date1.fillna(date2)
 # Transform dates
-job_map['date_start'] = job_map['date_start'].astype('str')
+#job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
 #job_map['date_start']=job_map.apply(lambda x: datetime.datetime.strptime(x['date_start'], '%m/%d/%y'), axis=1)
 job_map['date_start'] = job_map['date_start'].dt.date
