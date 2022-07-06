@@ -54,7 +54,9 @@ df['geometry'] = gp.points_from_xy(df['longitude'],df['latitude'], crs="EPSG:432
 gdf = gp.GeoDataFrame(df,geometry=df['geometry'], crs="EPSG:4326")
 job_map = spend_map.sjoin(gdf,how='left',predicate='intersects')
 
-st.write(job_map['date_start'])
+date1 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%Y-%m-%d')
+date2 = pd.to_datetime(job_map['date_start'], errors='coerce', format='%m/%d/%y')
+df['date_start'] = date1.fillna(date2)
 # Transform dates
 job_map['date_start'] = job_map['date_start'].astype('str')
 job_map['created_at']= job_map['created_at'].dt.date
