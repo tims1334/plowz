@@ -151,11 +151,12 @@ dfp = df.loc[(df['1stjob']>=start)&(df['1stjob']<=end)]
 st.map(dfp.loc[~df['new_customers'].isna()])
 
 # Show dataframes
-
+tdma = tdma.sort_values('spend', ascending=False)
 st.header('Job and Spend Totals by dma')
 st.dataframe(tdma.style.format({'spend':'${:,.2f}',
                                 'cost_per_new_customer':'${:,.2f}'}))
 
+final = final.sort_values('date_start',ascending=False)
 st.header('Job and Spend info grouped by date and dma')
 st.dataframe(final.style.format({'spend':'${:,.2f}',
                                 'cost_per_new_customer':'${:,.2f}'}))
