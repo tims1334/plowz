@@ -7895,7 +7895,7 @@ Static Retargeting | US | 6.22.22,4,0,0.01,2022-07-14,Birmingham (Ann And Tusc)
 Static Retargeting | US | 6.22.22,12,0,0.01,2022-07-14,Boston (Manchester)
 Static Retargeting | US | 6.22.22,2,0,0.03,2022-07-14,Buffalo
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Cedar Rapids-Wtrlo-Iwc&Dub
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Champaign&Sprngfld-Decatur
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Champaign&Sprngfld-Decatur
 Static Retargeting | US | 6.22.22,89,0,0.43,2022-07-14,"Charleston, SC"
 Static Retargeting | US | 6.22.22,1,0,0.02,2022-07-14,Charleston-Huntington
 Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-14,Charlotte
@@ -7904,24 +7904,24 @@ Static Retargeting | US | 6.22.22,12,0,0.06,2022-07-14,Chicago
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Cincinnati
 Static Retargeting | US | 6.22.22,11,0,0.05,2022-07-14,Cleveland-Akron (Canton)
 Static Retargeting | US | 6.22.22,6,0,0.04,2022-07-14,"Columbia, SC"
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,"Columbus, GA (Opelika, Al)"
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,"Columbus, GA (Opelika, Al)"
 Static Retargeting | US | 6.22.22,9,0,0.03,2022-07-14,"Columbus, OH"
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Corpus Christi
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Corpus Christi
 Static Retargeting | US | 6.22.22,12,0,0.1,2022-07-14,Dallas-Ft. Worth
 Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-14,Denver
 Static Retargeting | US | 6.22.22,44,0,0.36,2022-07-14,Des Moines-Ames
 Static Retargeting | US | 6.22.22,10,1,0.08,2022-07-14,Detroit
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Duluth-Superior
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,El Paso (Las Cruces)
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Elmira (Corning)
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Elmira (Corning)
 Static Retargeting | US | 6.22.22,1,0,0.02,2022-07-14,Flint-Saginaw-Bay City
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Ft. Smith-Fay-Sprngdl-Rgrs
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Ft. Smith-Fay-Sprngdl-Rgrs
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Ft. Wayne
 Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-14,Greensboro-H.Point-W.Salem
 Static Retargeting | US | 6.22.22,10,0,0.04,2022-07-14,Greenville-N.Bern-Washngtn
 Static Retargeting | US | 6.22.22,4,0,0.01,2022-07-14,Harlingen-Wslco-Brnsvl-Mca
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Harrisburg-Lncstr-Leb-York
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Harrisonburg
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Harrisonburg
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Hartford & New Haven
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Hattiesburg-Laurel
 Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-14,Honolulu
@@ -7931,17 +7931,17 @@ Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-14,Jacksonville
 Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-14,Kansas City
 Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-14,"Lafayette, LA"
 Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-14,Laredo
-Static Retargeting | US | 6.22.22,2,0,0,2022-07-14,Lincoln & Hastings-Krny
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-14,Lincoln & Hastings-Krny
 Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-14,Los Angeles
 Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-14,Louisville
 Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Madison
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Memphis
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Memphis
 Static Retargeting | US | 6.22.22,2,0,0.03,2022-07-14,Miami-Ft. Lauderdale
 Static Retargeting | US | 6.22.22,7,0,0.03,2022-07-14,Milwaukee
 Static Retargeting | US | 6.22.22,7,0,0.05,2022-07-14,Minneapolis-St. Paul
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Minot-Bsmrck-Dcknsn(Wlstn)
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Minot-Bsmrck-Dcknsn(Wlstn)
 Static Retargeting | US | 6.22.22,1,0,0.02,2022-07-14,Mobile-Pensacola (Ft Walt)
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Monroe-El Dorado
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Monroe-El Dorado
 Static Retargeting | US | 6.22.22,387,2,2.7,2022-07-14,New Orleans
 Static Retargeting | US | 6.22.22,26,0,0.21,2022-07-14,New York
 Static Retargeting | US | 6.22.22,996,6,7.03,2022-07-14,Norfolk-Portsmth-Newpt Nws
@@ -7949,12 +7949,12 @@ Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-14,Oklahoma City
 Static Retargeting | US | 6.22.22,6,0,0.03,2022-07-14,Omaha
 Static Retargeting | US | 6.22.22,5,0,0.03,2022-07-14,Orlando-Daytona Bch-Melbrn
 Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-14,Philadelphia
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Phoenix (Prescott)
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Phoenix (Prescott)
 Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-14,Pittsburgh
 Static Retargeting | US | 6.22.22,9,0,0.06,2022-07-14,Raleigh-Durham (Fayetvlle)
 Static Retargeting | US | 6.22.22,616,3,4.34,2022-07-14,Richmond-Petersburg
 Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-14,"Rochester, NY"
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,Sacramnto-Stkton-Modesto
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,Sacramnto-Stkton-Modesto
 Static Retargeting | US | 6.22.22,8,0,0.03,2022-07-14,San Antonio
 Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-14,San Diego
 Static Retargeting | US | 6.22.22,5,0,0.01,2022-07-14,Spokane
@@ -7965,8 +7965,356 @@ Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-14,Tyler-Longview(Lfkn&Ncgd)
 Static Retargeting | US | 6.22.22,17,0,0.13,2022-07-14,Unknown
 Static Retargeting | US | 6.22.22,10,0,0.07,2022-07-14,Waco-Temple-Bryan
 Static Retargeting | US | 6.22.22,35,0,0.14,2022-07-14,"Washington, DC (Hagrstwn)"
-Static Retargeting | US | 6.22.22,1,0,0,2022-07-14,West Palm Beach-Ft. Pierce
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-14,West Palm Beach-Ft. Pierce
 Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-14,Wilkes Barre-Scranton-Hztn
-Engagement | New Markets | July 1,2689,21,59.301156,2022-07-14,Norfolk-Portsmth-Newpt Nws
+Engagement | New Markets | July 1,2689,21,59.30115600000001,2022-07-14,Norfolk-Portsmth-Newpt Nws
 Engagement | New Markets | July 1,1942,16,41.917886,2022-07-14,Richmond-Petersburg
-Engagement | New Markets | July 1,238,0,5.090958,2022-07-14,Unknown
+Engagement | New Markets | July 1,238,0,5.0909580000000005,2022-07-14,Unknown
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,"Albany, GA"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Albany-Schenectady-Troy
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Atlanta
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Austin
+Static Retargeting | US | 6.22.22,11,0,0.06,2022-07-15,Baltimore
+Static Retargeting | US | 6.22.22,6,0,0.06,2022-07-15,Baton Rouge
+Static Retargeting | US | 6.22.22,4,1,0.02,2022-07-15,Beaumont-Port Arthur
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Biloxi-Gulfport
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-15,Birmingham (Ann And Tusc)
+Static Retargeting | US | 6.22.22,11,0,0.06,2022-07-15,Boston (Manchester)
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Cedar Rapids-Wtrlo-Iwc&Dub
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-15,Champaign&Sprngfld-Decatur
+Static Retargeting | US | 6.22.22,82,1,0.51,2022-07-15,"Charleston, SC"
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Charlotte
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Charlottesville
+Static Retargeting | US | 6.22.22,21,0,0.07,2022-07-15,Chicago
+Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-15,Cincinnati
+Static Retargeting | US | 6.22.22,11,0,0.06,2022-07-15,Cleveland-Akron (Canton)
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,"Columbia, SC"
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-15,"Columbus, GA (Opelika, Al)"
+Static Retargeting | US | 6.22.22,10,0,0.03,2022-07-15,"Columbus, OH"
+Static Retargeting | US | 6.22.22,6,0,0.05,2022-07-15,Dallas-Ft. Worth
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Dayton
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Denver
+Static Retargeting | US | 6.22.22,26,0,0.24,2022-07-15,Des Moines-Ames
+Static Retargeting | US | 6.22.22,19,0,0.04,2022-07-15,Detroit
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Duluth-Superior
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Evansville
+Static Retargeting | US | 6.22.22,6,0,0.04,2022-07-15,Ft. Myers-Naples
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Ft. Smith-Fay-Sprngdl-Rgrs
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Ft. Wayne
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Grand Rapids-Kalmzoo-B.Crk
+Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-15,Greensboro-H.Point-W.Salem
+Static Retargeting | US | 6.22.22,5,0,0.07,2022-07-15,Greenville-N.Bern-Washngtn
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Greenvll-Spart-Ashevll-And
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-15,Harlingen-Wslco-Brnsvl-Mca
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-15,Harrisburg-Lncstr-Leb-York
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-15,Hartford & New Haven
+Static Retargeting | US | 6.22.22,1130,13,8.84,2022-07-15,Houston
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-15,Indianapolis
+Static Retargeting | US | 6.22.22,3,0,0.0,2022-07-15,Jacksonville
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-15,Kansas City
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,"Lafayette, LA"
+Static Retargeting | US | 6.22.22,2,1,0.02,2022-07-15,Laredo
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Las Vegas
+Static Retargeting | US | 6.22.22,8,0,0.06,2022-07-15,Los Angeles
+Static Retargeting | US | 6.22.22,4,0,0.04,2022-07-15,Louisville
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-15,Madison
+Static Retargeting | US | 6.22.22,4,0,0.05,2022-07-15,Miami-Ft. Lauderdale
+Static Retargeting | US | 6.22.22,12,0,0.07,2022-07-15,Milwaukee
+Static Retargeting | US | 6.22.22,9,0,0.03,2022-07-15,Minneapolis-St. Paul
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Myrtle Beach-Florence
+Static Retargeting | US | 6.22.22,320,2,2.21,2022-07-15,New Orleans
+Static Retargeting | US | 6.22.22,27,0,0.19,2022-07-15,New York
+Static Retargeting | US | 6.22.22,784,9,6.32,2022-07-15,Norfolk-Portsmth-Newpt Nws
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-15,Oklahoma City
+Static Retargeting | US | 6.22.22,5,0,0.01,2022-07-15,Omaha
+Static Retargeting | US | 6.22.22,6,0,0.06,2022-07-15,Orlando-Daytona Bch-Melbrn
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Panama City
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-15,Philadelphia
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Phoenix (Prescott)
+Static Retargeting | US | 6.22.22,10,0,0.07,2022-07-15,Raleigh-Durham (Fayetvlle)
+Static Retargeting | US | 6.22.22,545,7,4.33,2022-07-15,Richmond-Petersburg
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-15,Roanoke-Lynchburg
+Static Retargeting | US | 6.22.22,4,0,0.0,2022-07-15,"Rochester, NY"
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Sacramnto-Stkton-Modesto
+Static Retargeting | US | 6.22.22,9,0,0.09,2022-07-15,San Antonio
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-15,San Diego
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,San Francisco-Oak-San Jose
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Spokane
+Static Retargeting | US | 6.22.22,10,0,0.05,2022-07-15,Syracuse
+Static Retargeting | US | 6.22.22,6,0,0.02,2022-07-15,Tampa-St. Pete (Sarasota)
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Tyler-Longview(Lfkn&Ncgd)
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-15,Unknown
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Victoria
+Static Retargeting | US | 6.22.22,8,0,0.01,2022-07-15,Waco-Temple-Bryan
+Static Retargeting | US | 6.22.22,26,0,0.25,2022-07-15,"Washington, DC (Hagrstwn)"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,Wausau-Rhinelander
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-15,West Palm Beach-Ft. Pierce
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-15,Wilkes Barre-Scranton-Hztn
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-15,Wilmington
+Static Retargeting | US | 6.22.22,7,0,0.04,2022-07-16,Atlanta
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-16,Austin
+Static Retargeting | US | 6.22.22,13,0,0.06,2022-07-16,Baltimore
+Static Retargeting | US | 6.22.22,6,0,0.07,2022-07-16,Baton Rouge
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-16,Beaumont-Port Arthur
+Static Retargeting | US | 6.22.22,3,0,0.09,2022-07-16,Birmingham (Ann And Tusc)
+Static Retargeting | US | 6.22.22,11,0,0.08,2022-07-16,Boston (Manchester)
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Buffalo
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Cedar Rapids-Wtrlo-Iwc&Dub
+Static Retargeting | US | 6.22.22,56,1,0.31,2022-07-16,"Charleston, SC"
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Charlotte
+Static Retargeting | US | 6.22.22,3,0,0.0,2022-07-16,Charlottesville
+Static Retargeting | US | 6.22.22,12,0,0.05,2022-07-16,Chicago
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-16,Cincinnati
+Static Retargeting | US | 6.22.22,9,0,0.06,2022-07-16,Cleveland-Akron (Canton)
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-16,"Columbia, SC"
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-16,"Columbus, GA (Opelika, Al)"
+Static Retargeting | US | 6.22.22,7,0,0.02,2022-07-16,"Columbus, OH"
+Static Retargeting | US | 6.22.22,10,0,0.03,2022-07-16,Dallas-Ft. Worth
+Static Retargeting | US | 6.22.22,35,1,0.25,2022-07-16,Des Moines-Ames
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-16,Detroit
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-16,Duluth-Superior
+Static Retargeting | US | 6.22.22,4,1,0.05,2022-07-16,El Paso (Las Cruces)
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-16,Fresno-Visalia
+Static Retargeting | US | 6.22.22,12,0,0.06,2022-07-16,Ft. Myers-Naples
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Ft. Wayne
+Static Retargeting | US | 6.22.22,6,0,0.04,2022-07-16,Greensboro-H.Point-W.Salem
+Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-16,Greenville-N.Bern-Washngtn
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-16,Greenvll-Spart-Ashevll-And
+Static Retargeting | US | 6.22.22,12,0,0.1,2022-07-16,Harlingen-Wslco-Brnsvl-Mca
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Harrisburg-Lncstr-Leb-York
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Harrisonburg
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Hartford & New Haven
+Static Retargeting | US | 6.22.22,1239,16,9.24,2022-07-16,Houston
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-16,Jacksonville
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-16,Kansas City
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Lansing
+Static Retargeting | US | 6.22.22,4,0,0.05,2022-07-16,Laredo
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Lincoln & Hastings-Krny
+Static Retargeting | US | 6.22.22,4,0,0.04,2022-07-16,Los Angeles
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-16,Louisville
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Memphis
+Static Retargeting | US | 6.22.22,6,0,0.12,2022-07-16,Miami-Ft. Lauderdale
+Static Retargeting | US | 6.22.22,9,0,0.05,2022-07-16,Milwaukee
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Minneapolis-St. Paul
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Monroe-El Dorado
+Static Retargeting | US | 6.22.22,326,5,2.29,2022-07-16,New Orleans
+Static Retargeting | US | 6.22.22,35,0,0.31,2022-07-16,New York
+Static Retargeting | US | 6.22.22,775,7,6.26,2022-07-16,Norfolk-Portsmth-Newpt Nws
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Oklahoma City
+Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-16,Orlando-Daytona Bch-Melbrn
+Static Retargeting | US | 6.22.22,3,0,0.03,2022-07-16,Philadelphia
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Phoenix (Prescott)
+Static Retargeting | US | 6.22.22,3,0,0.03,2022-07-16,Pittsburgh
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,"Portland, OR"
+Static Retargeting | US | 6.22.22,4,0,0.04,2022-07-16,Raleigh-Durham (Fayetvlle)
+Static Retargeting | US | 6.22.22,567,3,4.09,2022-07-16,Richmond-Petersburg
+Static Retargeting | US | 6.22.22,7,0,0.07,2022-07-16,Roanoke-Lynchburg
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Salisbury
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Salt Lake City
+Static Retargeting | US | 6.22.22,1,0,0.02,2022-07-16,San Angelo
+Static Retargeting | US | 6.22.22,13,0,0.08,2022-07-16,San Antonio
+Static Retargeting | US | 6.22.22,4,0,0.0,2022-07-16,San Diego
+Static Retargeting | US | 6.22.22,4,0,0.04,2022-07-16,San Francisco-Oak-San Jose
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Seattle-Tacoma
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Shreveport
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,South Bend-Elkhart
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Spokane
+Static Retargeting | US | 6.22.22,6,0,0.01,2022-07-16,St. Louis
+Static Retargeting | US | 6.22.22,11,0,0.04,2022-07-16,Syracuse
+Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-16,Tampa-St. Pete (Sarasota)
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Tyler-Longview(Lfkn&Ncgd)
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-16,Unknown
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,Victoria
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-16,Waco-Temple-Bryan
+Static Retargeting | US | 6.22.22,26,0,0.14,2022-07-16,"Washington, DC (Hagrstwn)"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-16,Wausau-Rhinelander
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-16,West Palm Beach-Ft. Pierce
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-16,Wilkes Barre-Scranton-Hztn
+Static Retargeting | US | 6.22.22,3,1,0.03,2022-07-16,Wilmington
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Albany-Schenectady-Troy
+Static Retargeting | US | 6.22.22,13,0,0.07,2022-07-17,Atlanta
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-17,Austin
+Static Retargeting | US | 6.22.22,18,0,0.07,2022-07-17,Baltimore
+Static Retargeting | US | 6.22.22,7,0,0.06,2022-07-17,Baton Rouge
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Beaumont-Port Arthur
+Static Retargeting | US | 6.22.22,11,0,0.11,2022-07-17,Birmingham (Ann And Tusc)
+Static Retargeting | US | 6.22.22,30,0,0.19,2022-07-17,Boston (Manchester)
+Static Retargeting | US | 6.22.22,8,0,0.02,2022-07-17,Buffalo
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Champaign&Sprngfld-Decatur
+Static Retargeting | US | 6.22.22,90,1,0.52,2022-07-17,"Charleston, SC"
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-17,Charlotte
+Static Retargeting | US | 6.22.22,7,0,0.06,2022-07-17,Charlottesville
+Static Retargeting | US | 6.22.22,32,0,0.2,2022-07-17,Chicago
+Static Retargeting | US | 6.22.22,10,0,0.04,2022-07-17,Cincinnati
+Static Retargeting | US | 6.22.22,19,0,0.07,2022-07-17,Cleveland-Akron (Canton)
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,"Columbia, SC"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,"Columbus, GA (Opelika, Al)"
+Static Retargeting | US | 6.22.22,26,0,0.13,2022-07-17,"Columbus, OH"
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Corpus Christi
+Static Retargeting | US | 6.22.22,14,0,0.1,2022-07-17,Dallas-Ft. Worth
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Davenport-R.Island-Moline
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-17,Denver
+Static Retargeting | US | 6.22.22,54,0,0.21,2022-07-17,Des Moines-Ames
+Static Retargeting | US | 6.22.22,22,0,0.04,2022-07-17,Detroit
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Duluth-Superior
+Static Retargeting | US | 6.22.22,7,0,0.04,2022-07-17,Ft. Myers-Naples
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-17,Ft. Wayne
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-17,Grand Rapids-Kalmzoo-B.Crk
+Static Retargeting | US | 6.22.22,4,0,0.0,2022-07-17,Greensboro-H.Point-W.Salem
+Static Retargeting | US | 6.22.22,5,0,0.04,2022-07-17,Greenville-N.Bern-Washngtn
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-17,Greenvll-Spart-Ashevll-And
+Static Retargeting | US | 6.22.22,5,0,0.01,2022-07-17,Harlingen-Wslco-Brnsvl-Mca
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-17,Harrisburg-Lncstr-Leb-York
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Harrisonburg
+Static Retargeting | US | 6.22.22,1262,8,7.83,2022-07-17,Houston
+Static Retargeting | US | 6.22.22,7,0,0.03,2022-07-17,Indianapolis
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,Jacksonville
+Static Retargeting | US | 6.22.22,8,0,0.05,2022-07-17,Kansas City
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,"Lafayette, LA"
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Lansing
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,Laredo
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,Lincoln & Hastings-Krny
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,Los Angeles
+Static Retargeting | US | 6.22.22,6,0,0.01,2022-07-17,Louisville
+Static Retargeting | US | 6.22.22,7,0,0.03,2022-07-17,Madison
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-17,Miami-Ft. Lauderdale
+Static Retargeting | US | 6.22.22,19,0,0.06,2022-07-17,Milwaukee
+Static Retargeting | US | 6.22.22,11,1,0.06,2022-07-17,Minneapolis-St. Paul
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,Mobile-Pensacola (Ft Walt)
+Static Retargeting | US | 6.22.22,1,0,0.0,2022-07-17,Monroe-El Dorado
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,Myrtle Beach-Florence
+Static Retargeting | US | 6.22.22,406,2,2.44,2022-07-17,New Orleans
+Static Retargeting | US | 6.22.22,36,1,0.2,2022-07-17,New York
+Static Retargeting | US | 6.22.22,1144,16,7.08,2022-07-17,Norfolk-Portsmth-Newpt Nws
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-17,Oklahoma City
+Static Retargeting | US | 6.22.22,16,0,0.07,2022-07-17,Omaha
+Static Retargeting | US | 6.22.22,11,0,0.09,2022-07-17,Orlando-Daytona Bch-Melbrn
+Static Retargeting | US | 6.22.22,4,0,0.01,2022-07-17,Philadelphia
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-17,Phoenix (Prescott)
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-17,Pittsburgh
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-17,"Portland, OR"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,Portland-Auburn
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-17,Providence-New Bedford
+Static Retargeting | US | 6.22.22,7,0,0.05,2022-07-17,Raleigh-Durham (Fayetvlle)
+Static Retargeting | US | 6.22.22,759,6,4.43,2022-07-17,Richmond-Petersburg
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,Roanoke-Lynchburg
+Static Retargeting | US | 6.22.22,7,0,0.03,2022-07-17,"Rochester, NY"
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-17,Sacramnto-Stkton-Modesto
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,San Angelo
+Static Retargeting | US | 6.22.22,8,0,0.06,2022-07-17,San Antonio
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,San Diego
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-17,San Francisco-Oak-San Jose
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-17,Shreveport
+Static Retargeting | US | 6.22.22,5,0,0.03,2022-07-17,Spokane
+Static Retargeting | US | 6.22.22,10,0,0.04,2022-07-17,St. Louis
+Static Retargeting | US | 6.22.22,23,0,0.12,2022-07-17,Syracuse
+Static Retargeting | US | 6.22.22,9,0,0.02,2022-07-17,Tampa-St. Pete (Sarasota)
+Static Retargeting | US | 6.22.22,2,0,0.0,2022-07-17,Tyler-Longview(Lfkn&Ncgd)
+Static Retargeting | US | 6.22.22,9,0,0.08,2022-07-17,Unknown
+Static Retargeting | US | 6.22.22,3,0,0.03,2022-07-17,Waco-Temple-Bryan
+Static Retargeting | US | 6.22.22,45,0,0.26,2022-07-17,"Washington, DC (Hagrstwn)"
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-17,Wausau-Rhinelander
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-17,West Palm Beach-Ft. Pierce
+Static Retargeting | US | 6.22.22,12,0,0.04,2022-07-17,Wilkes Barre-Scranton-Hztn
+Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-17,Wilmington
+Engagement | New Markets | July 1,2609,16,57.15,2022-07-15,Norfolk-Portsmth-Newpt Nws
+Engagement | New Markets | July 1,1910,17,41.63,2022-07-15,Richmond-Petersburg
+Engagement | New Markets | July 1,251,2,5.39,2022-07-15,Unknown
+Engagement | New Markets | July 1,2496,24,57.72,2022-07-16,Norfolk-Portsmth-Newpt Nws
+Engagement | New Markets | July 1,1924,21,44.43,2022-07-16,Richmond-Petersburg
+Engagement | New Markets | July 1,216,1,5.19,2022-07-16,Unknown
+Engagement | New Markets | July 1,2871,34,64.97085899999999,2022-07-17,Norfolk-Portsmth-Newpt Nws
+Engagement | New Markets | July 1,2242,25,50.038363000000004,2022-07-17,Richmond-Petersburg
+Engagement | New Markets | July 1,208,4,4.650777,2022-07-17,Unknown
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Albany-Schenectady-Troy
+Static Retargeting | US | 6.22.22,24,0,0.09,2022-07-18,Atlanta
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Austin
+Static Retargeting | US | 6.22.22,14,0,0.06,2022-07-18,Baltimore
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-18,Baton Rouge
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Beaumont-Port Arthur
+Static Retargeting | US | 6.22.22,2,0,0.02,2022-07-18,Birmingham (Ann And Tusc)
+Static Retargeting | US | 6.22.22,20,0,0.07,2022-07-18,Boston (Manchester)
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,Buffalo
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Cedar Rapids-Wtrlo-Iwc&Dub
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Champaign&Sprngfld-Decatur
+Static Retargeting | US | 6.22.22,92,0,0.56,2022-07-18,"Charleston, SC"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Charleston-Huntington
+Static Retargeting | US | 6.22.22,2,1,0.02,2022-07-18,Charlotte
+Static Retargeting | US | 6.22.22,7,0,0.05,2022-07-18,Charlottesville
+Static Retargeting | US | 6.22.22,33,0,0.15,2022-07-18,Chicago
+Static Retargeting | US | 6.22.22,8,0,0.03,2022-07-18,Cincinnati
+Static Retargeting | US | 6.22.22,18,0,0.07,2022-07-18,Cleveland-Akron (Canton)
+Static Retargeting | US | 6.22.22,3,0,0.04,2022-07-18,"Columbia, SC"
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,"Columbus, GA (Opelika, Al)"
+Static Retargeting | US | 6.22.22,22,0,0.1,2022-07-18,"Columbus, OH"
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Corpus Christi
+Static Retargeting | US | 6.22.22,9,1,0.03,2022-07-18,Dallas-Ft. Worth
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Davenport-R.Island-Moline
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Dayton
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Denver
+Static Retargeting | US | 6.22.22,71,0,0.4,2022-07-18,Des Moines-Ames
+Static Retargeting | US | 6.22.22,13,0,0.02,2022-07-18,Detroit
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Duluth-Superior
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,El Paso (Las Cruces)
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Fresno-Visalia
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Ft. Myers-Naples
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Ft. Wayne
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Grand Rapids-Kalmzoo-B.Crk
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-18,Greensboro-H.Point-W.Salem
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Greenville-N.Bern-Washngtn
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,Greenvll-Spart-Ashevll-And
+Static Retargeting | US | 6.22.22,6,0,0.03,2022-07-18,Harlingen-Wslco-Brnsvl-Mca
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Harrisburg-Lncstr-Leb-York
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Hartford & New Haven
+Static Retargeting | US | 6.22.22,1054,8,5.46,2022-07-18,Houston
+Static Retargeting | US | 6.22.22,8,0,0.03,2022-07-18,Indianapolis
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-18,Jacksonville
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Kansas City
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Lansing
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Laredo
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Lexington
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Little Rock-Pine Bluff
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,Los Angeles
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,Louisville
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Lubbock
+Static Retargeting | US | 6.22.22,5,0,0.07,2022-07-18,Macon
+Static Retargeting | US | 6.22.22,4,0,0.01,2022-07-18,Madison
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Memphis
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Miami-Ft. Lauderdale
+Static Retargeting | US | 6.22.22,15,0,0.07,2022-07-18,Milwaukee
+Static Retargeting | US | 6.22.22,14,0,0.05,2022-07-18,Minneapolis-St. Paul
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Myrtle Beach-Florence
+Static Retargeting | US | 6.22.22,342,1,1.65,2022-07-18,New Orleans
+Static Retargeting | US | 6.22.22,33,0,0.26,2022-07-18,New York
+Static Retargeting | US | 6.22.22,1640,9,8.68,2022-07-18,Norfolk-Portsmth-Newpt Nws
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Oklahoma City
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,Omaha
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Orlando-Daytona Bch-Melbrn
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Panama City
+Static Retargeting | US | 6.22.22,3,0,0.02,2022-07-18,Philadelphia
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Phoenix (Prescott)
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Pittsburgh
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,"Portland, OR"
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Providence-New Bedford
+Static Retargeting | US | 6.22.22,5,0,0.03,2022-07-18,Raleigh-Durham (Fayetvlle)
+Static Retargeting | US | 6.22.22,1056,4,5.54,2022-07-18,Richmond-Petersburg
+Static Retargeting | US | 6.22.22,3,0,0,2022-07-18,Roanoke-Lynchburg
+Static Retargeting | US | 6.22.22,9,0,0.03,2022-07-18,"Rochester, NY"
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Sacramnto-Stkton-Modesto
+Static Retargeting | US | 6.22.22,1,0,0,2022-07-18,Salt Lake City
+Static Retargeting | US | 6.22.22,4,0,0.03,2022-07-18,San Antonio
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,San Francisco-Oak-San Jose
+Static Retargeting | US | 6.22.22,6,0,0.01,2022-07-18,Shreveport
+Static Retargeting | US | 6.22.22,1,0,0.01,2022-07-18,Sioux City
+Static Retargeting | US | 6.22.22,4,0,0.02,2022-07-18,Spokane
+Static Retargeting | US | 6.22.22,6,0,0.03,2022-07-18,St. Louis
+Static Retargeting | US | 6.22.22,45,0,0.2,2022-07-18,Syracuse
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Tyler-Longview(Lfkn&Ncgd)
+Static Retargeting | US | 6.22.22,18,0,0.09,2022-07-18,Unknown
+Static Retargeting | US | 6.22.22,2,0,0,2022-07-18,Utica
+Static Retargeting | US | 6.22.22,3,0,0.01,2022-07-18,Waco-Temple-Bryan
+Static Retargeting | US | 6.22.22,43,0,0.21,2022-07-18,"Washington, DC (Hagrstwn)"
+Static Retargeting | US | 6.22.22,2,0,0,2022-07-18,Wausau-Rhinelander
+Static Retargeting | US | 6.22.22,5,0,0.02,2022-07-18,West Palm Beach-Ft. Pierce
+Static Retargeting | US | 6.22.22,5,0,0.01,2022-07-18,Wilkes Barre-Scranton-Hztn
+Static Retargeting | US | 6.22.22,2,0,0.01,2022-07-18,Wilmington
